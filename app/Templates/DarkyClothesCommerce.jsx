@@ -1247,7 +1247,8 @@ const DarkyClothersShop = () => {
 				{/* Bottom Border */}
 				<div className="mt-8 pt-6 border-t border-zinc-800">
 					<p className="text-center text-zinc-500 text-sm">
-						© 2024 Darky. All rights reserved. Crafted with passion for fashion.
+						© 2024 Darky. All rights reserved. Crafted with passion for
+						fashion.
 					</p>
 				</div>
 			</footer>
@@ -1623,7 +1624,7 @@ const DarkyClothersShop = () => {
 							<details className="group border border-zinc-800 rounded-xl overflow-hidden">
 								<summary className="flex items-center justify-between p-4 cursor-pointer bg-zinc-900/50 hover:bg-zinc-800/50 transition-colors duration-200">
 									<div className="flex items-center gap-3">
-										<div className="w-8 h-8  rounded-lg flex items-center justify-center">
+										<div className="w-8 h-8  rounded-xl flex items-center justify-center">
 											<ShoppingCart className="w-4 h-4 text-zinc-300" />
 										</div>
 										<div>
@@ -1699,7 +1700,7 @@ const DarkyClothersShop = () => {
 							<details className="group border border-zinc-800 rounded-xl overflow-hidden">
 								<summary className="flex items-center justify-between p-4 cursor-pointer bg-zinc-900/50 hover:bg-zinc-800/50 transition-colors duration-200">
 									<div className="flex items-center gap-3">
-										<div className="w-8 h-8  rounded-lg flex items-center justify-center">
+										<div className="w-8 h-8  rounded-xl flex items-center justify-center">
 											<svg
 												className="w-4 h-4 text-zinc-300"
 												fill="none"
@@ -1916,7 +1917,7 @@ const DarkyClothersShop = () => {
 							<details className="group border border-zinc-800 rounded-xl overflow-hidden">
 								<summary className="flex items-center justify-between p-4 cursor-pointer bg-zinc-900/50 hover:bg-zinc-800/50 transition-colors duration-200">
 									<div className="flex items-center gap-3">
-										<div className="w-8 h-8 rounded-lg flex items-center justify-center">
+										<div className="w-8 h-8 rounded-xl flex items-center justify-center">
 											<svg
 												className="w-4 h-4 text-zinc-300"
 												fill="none"
@@ -2052,7 +2053,7 @@ const DarkyClothersShop = () => {
 							<details className="group border border-zinc-800 rounded-xl overflow-hidden">
 								<summary className="flex items-center justify-between p-4 cursor-pointer bg-zinc-900/50 hover:bg-zinc-800/50 transition-colors duration-200">
 									<div className="flex items-center gap-3">
-										<div className="w-8 h-8 rounded-lg flex items-center justify-center">
+										<div className="w-8 h-8 rounded-xl flex items-center justify-center">
 											<svg
 												className="w-4 h-4 text-zinc-300"
 												fill="none"
@@ -2116,8 +2117,8 @@ const DarkyClothersShop = () => {
 																order.status === "Delivered"
 																	? "bg-green-500/20 text-green-400"
 																	: order.status === "Shipped"
-																	? "bg-blue-500/20 text-blue-400"
-																	: "bg-yellow-500/20 text-yellow-400"
+																		? "bg-blue-500/20 text-blue-400"
+																		: "bg-yellow-500/20 text-yellow-400"
 															}`}
 														>
 															{order.status}
@@ -2655,7 +2656,7 @@ const DarkyClothersShop = () => {
 							<details className="group border border-zinc-800 rounded-xl overflow-hidden">
 								<summary className="flex items-center justify-between p-4 cursor-pointer bg-zinc-900/50 hover:bg-zinc-800/50 transition-colors duration-200">
 									<div className="flex items-center gap-3">
-										<div className="w-8 h-8 rounded-lg flex items-center justify-center">
+										<div className="w-8 h-8 rounded-xl flex items-center justify-center">
 											<svg
 												className="w-4 h-4 text-zinc-300"
 												fill="none"
@@ -2753,7 +2754,7 @@ const DarkyClothersShop = () => {
 							<details className="group border border-zinc-800 rounded-xl overflow-hidden">
 								<summary className="flex items-center justify-between p-4 cursor-pointer bg-zinc-900/50 hover:bg-zinc-800/50 transition-colors duration-200">
 									<div className="flex items-center gap-3">
-										<div className="w-8 h-8 rounded-lg flex items-center justify-center">
+										<div className="w-8 h-8 rounded-xl flex items-center justify-center">
 											<svg
 												className="w-4 h-4 text-zinc-300"
 												fill="none"
@@ -2851,7 +2852,7 @@ const DarkyClothersShop = () => {
 							<details className="group border border-zinc-800 rounded-xl overflow-hidden">
 								<summary className="flex items-center justify-between p-4 cursor-pointer bg-zinc-900/50 hover:bg-zinc-800/50 transition-colors duration-200">
 									<div className="flex items-center gap-3">
-										<div className="w-8 h-8 rounded-lg flex items-center justify-center">
+										<div className="w-8 h-8 rounded-xl flex items-center justify-center">
 											<svg
 												className="w-4 h-4 text-zinc-300"
 												fill="none"
